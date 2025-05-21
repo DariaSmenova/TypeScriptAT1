@@ -1,0 +1,16 @@
+{
+  "name": "photo-cropper-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.13",
+    "parcel": "^2.15.1"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

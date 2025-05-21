@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Photo Cropper App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Обрезка фотографий</h1>
+  <input type="file" id="inputImage" accept="image/*" />
+  <div class="image-container">
+    <img id="image" style="max-width: 100%;" />
+  </div>
+  <button id="cropBtn">Обрезать</button>
+  <button id="downloadBtn">Скачать обрезанное фото</button>
+  <div class="cropped-container">
+    <h3>Обрезанное фото:</h3>
+    <canvas id="croppedCanvas"></canvas>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
